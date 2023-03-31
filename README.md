@@ -7,7 +7,8 @@ The library Numpy is required for this assignment.
 This project showcase the Euler Method,Runge-Kutta, Gaussian elemination, and matrices. 
 
 ### Setup 
---Install python on device
---Seach for cmd in toolbar
--Locate the directory and navigate the right folder
-- 
+* Seach for terminal in toolbar to open the terminal
+* Install python on device if not already installed 
+* Install Numpy library by typing  with "pip install numpy" in the command line 
+* Locate the directory and navigate the right folder
+* To run the assignment,type "python assignment_3.py " and press Enter. 
