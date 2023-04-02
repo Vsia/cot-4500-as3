@@ -21,7 +21,7 @@ y0 = 1
 num_iterations = 10
 
 result = euler_method(f, t_range, y0, num_iterations)
-print(result)
+print("{:.5f}".format(result))
 print("\n")
 #---------------------------------------------------------------------------------------------------
 #Number 2 - Runge-Kutta with the following details:
@@ -46,7 +46,7 @@ y0 = 1
 num_iterations = 10
 
 result = rungeKutta(f, t_range, y0, num_iterations)
-print(result)
+print("{:.5f}".format(result))
 print("\n")
 #---------------------------------------------------------------------------------------------------
 #number 3- Use Gaussian elimination and backward substitution solve the following linear system of equations written in augmented matrix format.
@@ -99,7 +99,7 @@ matrixFour = np.array([[1, 1, 0, 3], [2, 1, -1, 1], [3, -1, -1, 2],
 L, U = luFactorization(matrixFour)
 determinatnA = np.prod(np.diag(U))
 
-print("{:.17f}".format(determinatnA))
+print("{:.5f}".format(determinatnA))
 print("\n", L, "\n")
 print(U, "\n")
 
