@@ -1,4 +1,4 @@
-# Assignment 3
+# Numerical Calculus Algorithm Assignment 3
 By Vallesia Pierre Louis
 
 The library Numpy is required for this assignment. 
